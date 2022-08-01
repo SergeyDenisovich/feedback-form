@@ -1,0 +1,129 @@
+/*!*******************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Form/Form.module.scss ***!
+  \*******************************************************************************************************************************/
+.Nl9sbryPciNiTffJgBG2 {
+  background-color: #f2f2f2;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+.Nl9sbryPciNiTffJgBG2 legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Nl9sbryPciNiTffJgBG2 input[type=text],
+.Nl9sbryPciNiTffJgBG2 input[type=date],
+.Nl9sbryPciNiTffJgBG2 input[type=email],
+.Nl9sbryPciNiTffJgBG2 input[type=tel],
+.Nl9sbryPciNiTffJgBG2 textarea {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.Nl9sbryPciNiTffJgBG2 input[type=text]:focus,
+.Nl9sbryPciNiTffJgBG2 input[type=date]:focus,
+.Nl9sbryPciNiTffJgBG2 input[type=email]:focus,
+.Nl9sbryPciNiTffJgBG2 input[type=tel]:focus,
+.Nl9sbryPciNiTffJgBG2 textarea:focus {
+  outline: none;
+}
+.Nl9sbryPciNiTffJgBG2 textarea {
+  resize: vertical;
+}
+.Nl9sbryPciNiTffJgBG2 button {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.Nl9sbryPciNiTffJgBG2 .uUBhtWmOhrGSk76GNaGP {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+.Nl9sbryPciNiTffJgBG2 .iTbnBOYHlM8OGdV86lRQ {
+  background-color: red;
+  cursor: not-allowed;
+}
+.Nl9sbryPciNiTffJgBG2 .u8K1F3OI53s0YtWo753l {
+  color: green;
+  text-align: center;
+}
+.Nl9sbryPciNiTffJgBG2 .NYk0rtyPx1QowTHZs_2B {
+  color: red;
+  text-align: center;
+}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/Preview/Preview.module.scss ***!
+  \*************************************************************************************************************************************/
+.RGwHZUSLtF1F27e6xzQf {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+  color: white;
+}
+.RGwHZUSLtF1F27e6xzQf header {
+  font-size: 22px;
+  font-weight: bold;
+}
+.utjrSM4jrwB3IG1zV3fQ {
+  border-right: 1px solid grey;
+}
+.cnu3QPPrUHHF57b2q5dY {
+  align-self: center;
+  min-width: max-content;
+}
+.H2Q8qCJyHJ7fyWjAUKHg {
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.H2Q8qCJyHJ7fyWjAUKHg:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \*********************************************************************************************************/
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map*/

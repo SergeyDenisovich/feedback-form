@@ -1,0 +1,74 @@
+// ================= Form style =================
+
+.form {
+  background-color: #f2f2f2;
+
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+
+  legend {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  input[type='text'],
+  input[type='date'],
+  input[type='email'],
+  input[type='tel'],
+  textarea {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .errorText {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .disabledBtn {
+    background-color: red;
+    cursor: not-allowed;
+  }
+
+  .responseTextSuccess {
+    color: green;
+    text-align: center;
+  }
+
+  .responseTextError {
+    color: red;
+    text-align: center;
+  }
+}
